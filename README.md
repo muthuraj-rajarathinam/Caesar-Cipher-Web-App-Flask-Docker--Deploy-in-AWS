@@ -204,10 +204,3 @@ CMD ["python", "app.py"]
 ## ✍️ Author
 Muthuraj
 
-## 📄 License
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
-
----
-
-Would you like me to generate a `LICENSE` file and `.gitignore` to complete your GitHub repo setup?
