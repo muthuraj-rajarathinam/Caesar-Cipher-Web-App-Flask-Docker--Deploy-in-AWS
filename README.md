@@ -1,10 +1,10 @@
 ## 🔐 Caesar Cipher Web App — Flask + Docker + AWS
 
-This is a simple and interactive **Caesar Cipher Web Application** built using Python and Flask. It allows users to enter any text and either encrypt or decrypt it by applying the Caesar cipher technique with a customizable shift amount. The entire processing is done in memory without relying on any external APIs, databases, or file storage, making it lightweight and easy to deploy.
+This project demonstrates modern cloud-native deployment practices by containerizing a Python Flask web application with Docker and deploying it to AWS. The application itself is a Caesar Cipher tool, allowing users to encrypt or decrypt text with a customizable shift, but the primary focus is on the containerization and cloud deployment workflow.
 
-The app features a modern, eye-catching user interface styled with Bootstrap 5, providing a clean and responsive experience on both desktop and mobile devices.
+By packaging the app as a Docker container, we ensure that it runs identically across any environment—locally, on-premises, or in the cloud. This approach eliminates "it works on my machine" issues and simplifies scaling, updating, and maintaining the application.
 
-This project is containerized using Docker, enabling consistent deployment across different environments. It can be easily deployed to cloud platforms such as AWS using services like Elastic Beanstalk or App Runner.
+The project is designed for rapid deployment to AWS using services such as Amazon ECS (Elastic Container Service), AWS Elastic Beanstalk, or AWS App Runner. You can build and test the container locally, then push the image to a container registry (like Amazon ECR), and deploy it to AWS for high availability, scalability, and integrated monitoring
 
 ---
 
